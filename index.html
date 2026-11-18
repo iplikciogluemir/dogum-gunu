@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f8f2e9" />
+  <meta name="description" content="Birlikte yazdığımız hikâyeye küçük bir doğum günü sürprizi." />
+  <title>Seninle, hep. ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="loading" id="loading"><div class="loading-heart">♡</div><span>BİZİM HİKÂYEMİZ YÜKLENİYOR</span></div>
+  <header class="topbar">
+    <a class="brand" href="#home">sadece <span>biz.</span><span class="brand-heart"> ♡</span></a>
+    <nav aria-label="Sayfa bölümleri">
+      <a href="#memories">ANILAR</a>
+      <a href="#reasons">SEN & BEN</a>
+      <a href="#surprise">SÜRPRİZ</a>
+    </nav>
+    <a href="#letter" class="topbar-cta">MEKTUBUN <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home" aria-label="Doğum günü kutlaması">
+      <div class="hero-sun" aria-hidden="true"></div>
+      <div class="hero-scribble hero-scribble-1" aria-hidden="true">✳</div>
+      <div class="hero-scribble hero-scribble-2" aria-hidden="true">♡</div>
+      <div class="hero-content reveal">
+        <div class="eyebrow"><span class="tiny-star">✳</span> BESTEMİN GÜNÜ BUGÜN <span class="tiny-star">✳</span></div>
+        <p class="hero-pretitle">iyi ki doğdun,</p>
+        <h1><span id="heroName">sevgilim</span><span class="hero-dot">.</span></h1>
+        <p class="hero-text">Sana sıradan bir doğum günü mesajı hazırlayamazdım. Çünkü sen benim kalbimin bağı, geleceğim, gökyüzüm ve her gün soluduğum hava gibisin.</p>
+        <a href="#intro" class="round-link"><span>HİKÂYEMİZE BAŞLA</span><span class="round-arrow">↘</span></a>
+      </div>
+      <div class="hero-photo hero-photo-back float" aria-hidden="true"><img src="photos/02.jpg" data-fallback="photos/02.svg" alt="" /></div>
+      <div class="hero-photo hero-photo-front float" aria-hidden="true"><img src="photos/01.jpg" data-fallback="photos/01.svg" alt=""/><span class="photo-caption">favori insanım ♡</span></div>
+      <div class="hero-bottom"><span>27 EKİM'DEN BERİ</span><span class="hero-scroll">KAYDIR VE KEŞFET ↓</span><span>SONSUZA DEK, BİZ</span></div>
+    </section>
+
+    <section class="intro section" id="intro">
+      <span class="section-label reveal">01 / KÜÇÜK BİR NOT</span>
+      <div class="intro-layout">
+        <div class="intro-deco reveal" aria-hidden="true"><span class="intro-asterisk">✽</span><span class="intro-loop">∞</span><span class="intro-written">you + me</span></div>
+        <div class="intro-copy reveal"><p class="micro-label">BİLİYOR MUSUN?</p><h2>Her güzel hikâyenin<br/>bir <em>başrolü</em> vardır.</h2><p>Benim hikâyemin en güzel sayfaları seninle başladı. Bazı anlar fotoğraflarda, bazıları aklımızda, bazılarıysa kalbimin en güzel yerinde saklı.</p><p>Bugün hepsine tekrar bakmak ve sana bir şeyi hatırlatmak istiyorum...</p><p class="intro-signature">iyi ki <span>sen</span> ♡</p></div>
+      </div>
+    </section>
+
+    <section class="memories section" id="memories">
+      <div class="section-heading reveal"><div><span class="section-label">02 / KÜÇÜK KARELER, BÜYÜK HİSLER</span><h2>Bizden <em>kareler.</em></h2></div><p>Birlikte geçen zamanın en sevdiğim kanıtları. Her fotoğrafın arkasında ayrı bir his, ayrı bir anı, ayrı bir biz var.</p></div>
+      <div class="gallery-viewport" id="galleryViewport" tabindex="0" aria-label="Fotoğraf galerisi">
+        <div class="gallery-track" id="galleryTrack"></div>
+      </div>
+      <div class="gallery-controls"><div class="gallery-count"><span id="galleryIndex">01</span><span class="gallery-line"></span><span id="galleryTotal">06</span></div><div class="gallery-buttons"><button type="button" class="circle-btn" id="prevPhoto" aria-label="Önceki fotoğraf">←</button><button type="button" class="circle-btn" id="nextPhoto" aria-label="Sonraki fotoğraf">→</button></div></div>
+      <p class="gallery-hint">FOTOĞRAFLARA DOKUNARAK BÜYÜTEBİLİRSİN ✳</p>
+    </section>
+
+    <section class="ticker" aria-hidden="true"><div class="ticker-inner">SENİNLE HER ŞEY DAHA GÜZEL <span>✳</span> İYİ Kİ VARSIN <span>♡</span> SENİNLE HER ŞEY DAHA GÜZEL <span>✳</span> İYİ Kİ VARSIN <span>♡</span>&nbsp;</div></section>
+
+    <section class="reasons section" id="reasons">
+      <div class="reasons-header reveal"><span class="section-label">03 / SANA DAİR</span><h2>Seni sevmek için<br/><em>binlerce nedenim var.</em></h2><p>Hepsini buraya sığdıramam. Ama kalbimde öne çıkan birkaçını buraya bıraktım.</p></div>
+      <div class="reason-grid" id="reasonGrid"></div>
+      <div class="reason-bottom reveal">ve en güzeli... <strong>her gün yeni bir neden buluyorum.</strong> <span>♡</span></div>
+    </section>
+
+    <section class="timeline section" id="timeline"><div class="timeline-top reveal"><span class="section-label">04 / BİZİM KÜÇÜK EVRENİMİZ</span><h2>Birlikte yazdığımız<br/><em>hikâye.</em></h2><p>Her şey bir gün başladı. Sonra hayatımın en sevdiğim hikâyesi oldu.</p></div><div class="timeline-list" id="timelineList"></div></section>
+
+    <section class="surprise section" id="surprise"><div class="surprise-deco" aria-hidden="true">✦</div><div class="surprise-heading reveal"><span class="section-label">05 / SADECE SANA ÖZEL</span><h2>Biraz <em>sihir</em><br/>yapalım mı?</h2><p>Bu kartın altında sana söylemek istediğim küçük ama çok gerçek bir cümle var. Parmağınla veya farenle üzerini kazı.</p></div><div class="scratch-wrap reveal"><div class="scratch-label">♡ SANA KÜÇÜK BİR SIR ♡</div><div class="scratch-board" id="scratchBoard"><div class="scratch-message"><span>benim en güzel<br/>tesadüfüm...</span><strong id="scratchText">SENSİN. ♡</strong><small>iyi ki hayatımdasın</small></div><canvas id="scratchCanvas" aria-label="Sürpriz mesajı ortaya çıkarmak için kazı" role="img"></canvas></div><div class="scratch-actions"><span id="scratchStatus">KARTI KAZIYARAK SIRRI ORTAYA ÇIKAR ✧</span><button id="revealScratch" type="button">HEPSİNİ GÖSTER ↗</button></div></div></section>
+
+    <section class="letter section" id="letter"><div class="letter-bg-word" aria-hidden="true">LOVE</div><div class="letter-content reveal"><span class="section-label">06 / SON BİR ŞEY DAHA</span><h2>Sana bir <em>mektubum</em> var.</h2><p>Bunu bütün kalbimle yazdım. Sadece senin için.</p><button class="envelope-button" id="openLetter" type="button" aria-expanded="false" aria-controls="letterPaper"><span class="envelope"><span class="envelope-flap"></span><span class="envelope-seal">♡</span></span><span class="envelope-instruction" id="envelopeInstruction">AÇMAK İÇİN DOKUN ✳</span></button><article class="letter-paper" id="letterPaper" aria-hidden="true"><div class="letter-paper-inner"><p class="letter-topline">KALBİMİN EN GÜZEL YERİNE,</p><h3 id="letterGreeting">Sevgilim,</h3><div id="letterBody"></div><p class="letter-signoff" id="letterSignature">Seni çok seven biri. ♡</p></div></article></div></section>
+
+    <section class="finale section" id="finale"><div class="finale-stars" aria-hidden="true">✳ &nbsp; ✦ &nbsp; ♡</div><p class="finale-overline reveal">VE SONSUZA KADAR SÖYLEYECEĞİM...</p><h2 class="reveal">İyi ki<br/><em>doğdun.</em><span>♡</span></h2><p class="finale-sub reveal" id="finalText">Kalbimin bağı, geleceğim, gökyüzüm... iyi ki doğdun Bestem.</p><button class="celebrate-btn reveal" type="button" id="celebrateBtn">BİRLİKTE KUTLAYALIM <span>✳</span></button><div class="finale-footer"><span>BU KÜÇÜK EVREN SADECE İKİMİZE AİT.</span><a href="#home">EN BAŞA DÖN ↑</a><span>SONSUZ SEVGİYLE ♡</span></div></section>
+  </main>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Fotoğraf görüntüleyici" aria-hidden="true"><button id="closeLightbox" class="lightbox-close" aria-label="Kapat">✕</button><img id="lightboxImage" alt="Büyük fotoğraf"/><div id="lightboxCaption"></div></div>
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+  <script>/* GitHub Pages: index.html dosyasını sitenin kök dizinine koy. */</script>
+</body>
+</html>
